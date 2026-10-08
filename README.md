@@ -7,11 +7,10 @@ No owner, no admin, no upgrade. Anyone can settle.
 ## Setup
 
 ```sh
-forge install foundry-rs/forge-std OpenZeppelin/openzeppelin-contracts@v5.4.0
 forge test
 ```
 
-Built with Foundry 1.8.3, the version IMD's verifier runs, and solc 0.8.28.
+Built with Foundry 1.8.3, the version IMD's verifier runs, and solc 0.8.26. Dependencies are vendored under `lib/` (see `lib/DEPENDENCIES.md`), so no install step is needed.
 
 ## Contracts
 
